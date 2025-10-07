@@ -1,4 +1,5 @@
 import FONTS from '@/constants/Fonts';
+import COLORS from '@/constants/Colors';
 import { Image, StyleSheet, Text, View } from 'react-native';
 // import { Inter_400Regular } from '@expo-google-fonts/inter/400Regular';
 // import { Inter_600SemiBold } from '@expo-google-fonts/inter/600SemiBold';
@@ -21,14 +22,15 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/images/logo.png')} />
+      <Image source={require('../assets/images/logo-v2.png')} />
       <Text style={styles.title}>BoraCasar</Text>
       <Text style={styles.text}>Seu casamento dos sonhos, perfeitamente planejado</Text>
       <Image style={styles.image} source={require('../assets/images/illustration-01.jpg')} />
       <Text style={styles.secondTitle}>Menos estresse, mais amor</Text>
-      <Text style={styles.secondText}>Organização e romance andam juntos: controle o orçamento e viva o sonho do seu casamento.</Text>
+      <Text style={styles.secondText}>Organização e romance andam juntos! Controle o orçamento e viva o sonho do seu casamento.</Text>
       <Button />
-      <Text style={styles.textLogin}>Já tem uma conta? Entre aqui.</Text>
+      <Text style={styles.textLogin}>Já tem uma conta? 
+        <Text style={{ color: '#F472B6'}}> Entre aqui</Text></Text>
     </View>
   )
 }
@@ -56,8 +58,8 @@ export const styles = StyleSheet.create({
     paddingBottom: 32,
   },
   image: {
-    width: 250,
-    height: 250,
+    width: 220,
+    height: 220,
     borderRadius: 50,
     marginBottom: 32,
   },
@@ -83,5 +85,6 @@ export const styles = StyleSheet.create({
     fontSize: FONTS.font14.fontSize,
     color: FONTS.font14.color,
     textAlign: 'center',
+    paddingTop: 16,
     }
 })
