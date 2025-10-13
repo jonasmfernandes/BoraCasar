@@ -25,9 +25,9 @@ export default function Index() {
       <Image source={require('../assets/images/logo-v2.png')} />
       <Text style={styles.title}>BoraCasar</Text>
       <Text style={styles.text}>Seu casamento dos sonhos, perfeitamente planejado</Text>
-      <Image style={styles.image} source={require('../assets/images/illustration-01.jpg')} />
+      <Image style={styles.image} source={require('../assets/images/illustration-02.jpg')} />
       <Text style={styles.secondTitle}>Menos estresse, mais amor</Text>
-      <Text style={styles.secondText}>Organização e romance andam juntos! Controle o orçamento e viva o sonho do seu casamento.</Text>
+      <Text style={styles.secondText}>Organização e romance andam juntos!</Text>
       <Button />
       <Text style={styles.textLogin}>Já tem uma conta? 
         <Text style={{ color: '#F472B6'}}> Entre aqui</Text></Text>
