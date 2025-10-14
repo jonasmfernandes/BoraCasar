@@ -1,7 +1,5 @@
 # BoraCasar
 
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/jonasmfernandes/BoraCasar)
-
 BoraCasar is a mobile application built with React Native and Expo, designed to help couples plan their dream wedding seamlessly. The app aims to reduce the stress of wedding organization, allowing users to focus on the romance.
 
 The initial screen welcomes users with the slogans:
