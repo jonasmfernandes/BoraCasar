@@ -1,10 +1,10 @@
 # BoraCasar
 
 BoraCasar is a mobile application built with React Native and Expo, designed to help couples plan their dream wedding seamlessly. The app aims to reduce the stress of wedding organization, allowing users to focus on the romance.
-
+<!-- 
 The initial screen welcomes users with the slogans:
 *   "Seu casamento dos sonhos, perfeitamente planejado" (Your dream wedding, perfectly planned).
-*   "Menos estresse, mais amor" (Less stress, more love).
+*   "Menos estresse, mais amor" (Less stress, more love). -->
 
 ## Technologies Used
 
